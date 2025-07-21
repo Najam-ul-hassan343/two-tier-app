@@ -21,7 +21,7 @@ services:
       start_period: 30s  # Reduced for faster boot
 
   flask:
-    image: najam2002/two-tier-app
+    image: najam2002/flask-app:latest
     container_name: tst-app
     ports:
       - "5000:5000"
